@@ -7,7 +7,7 @@
 ## Etude de cas
 ---
 - La demande métier est floue et evolutive
----?image=assets/image/business_analyst.jpg&size=auto 90
+---?image=assets/image/business_analyst.jpg&size=auto 80
 ---
 - La demande métier est floue et evolutive
 - Le metier veut brancher sa datawiz
@@ -20,6 +20,7 @@
 - Le metier veut brancher sa datawiz
 - Et se connecter avec d autres applications
 - Tout en conservant une application réactive
+---
 ## Architecture
 ---
 - MongoDB est le meilleur compromis souplesse / scalabilité
