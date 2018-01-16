@@ -5,14 +5,20 @@
 
 ---
 ## Etude de cas
-- Demande métier floue / evolutive
+- La demande métier est floue et evolutive
+---
 ---?image=assets/image/business_analyst.jpg&size=auto 90
+---
+- La demande métier est floue et evolutive
+- Le metier veut brancher sa datawiz
+---
+- La demande métier est floue et evolutive
 - Le metier veut brancher sa datawiz
 - Et connecter avec d autres applications
 ---
 ## Architecture
 ---
-- MongoDB: meilleur compromis Big data/souplesse
+- MongoDB est le meilleur compromis souplesse / scalabilité
 - On peut rajouter des champs ...
 - GDelt: schema evolue : 1.0 à 2.0
 - Dev: json = technos web ++
