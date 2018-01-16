@@ -7,7 +7,7 @@
 ## Etude de cas
 ---
 - La demande métier est floue et evolutive
----?image=assets/image/business_analyst.jpg&size=auto 80
+---?image=assets/image/business_analyst.jpg&size=auto 90%
 ---
 - La demande métier est floue et evolutive
 - Le metier veut brancher sa datawiz
@@ -24,13 +24,16 @@
 ## Architecture
 ---
 - MongoDB est le meilleur compromis souplesse / scalabilité
-- On peut rajouter des champs ...
-- GDelt: schema evolue : 1.0 à 2.0
-- Dev: json = technos web ++
-- Beaucoup de possibilités pour attaquer la base
+---
+Le format JSON permet de rajouter des champs à la demande
+- En fonction des demandes métier
+- En fonciton des évolutions de la base Gdelt (format 1.0 -> 2.0)
+- Technologie web créée par des développeurs, pour des développeurs
+- Beaucoup de connecteurs pour attaquer la base (Python, BI, Spark, REST)
 
 ---
 ## Modélisation des données
+---
 - Systeme relationnel -> Collection avec selection des champs qui nous interessent
 - De temps en tps pas acteur 2 => on ne prend pas
 ---
