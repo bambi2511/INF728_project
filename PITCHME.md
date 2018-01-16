@@ -10,7 +10,7 @@
 ---?image=assets/image/business_analyst.jpg&size=auto 90%
 ---
 - La demande métier est par nature floue et evolutive
-- Le metier veut brancher sa datawiz
+- Le metier veut brancher sa dataviz
 ---
 - La demande métier est par nature floue et evolutive
 - Le metier veut brancher sa datawiz
@@ -25,7 +25,7 @@
 ---
 - MongoDB est le meilleur compromis souplesse / scalabilité
 ---
--Le format JSON permet de rajouter des champs à la demande
+- Le format JSON permet de rajouter des champs à la demande
  - En fonction des demandes métier
  - En fonction des évolutions de la base Gdelt (format 1.0 -> 2.0)
 ---
@@ -36,6 +36,20 @@
 ## Modélisation des données
 ---
 - GDelt: 3 tables avec des liens relationnels. On lie les tables, on les applatit, et on ne conserve que les champs qui nous intéressent
+---
+### Import: Spark
+---
+- Le format de stockage dans S3 (zip) ne nous permet pas de traiter directement la donnée
+- Nous avons donc directement récupéré les données de la base GDelt vers une machine S3
+- Ceux ci sont ensuite processés par un traitement Scala qui integre les fichiers dans une base de données dans un cluster MongoDB
+---
+### Storage: MongoDB
+---
+- Cluster de 3 machines S3
+---
+### Requêtes
+---
+- A faire
 ---
 ## Visualisation
 
