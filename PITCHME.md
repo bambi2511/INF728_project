@@ -1,17 +1,26 @@
-# Projet NOSQL
+#Projet NOSQL
 
 ### Presentation du 23/01/2017
 #### Nazha Bouchia, Alexandre Durand, Robin Masliah, François Lecerf
 
 ---
-## Etude de ces
+## Etude de cas
+- Demande métier floue / evolutive
+- Le metier veut brancher sa datawiz
+- Et connecter avec d autres applications
 
 ---
 ## Architecture
+- MongoDB: meilleur compromis Big data/souplesse
+- On peut rajouter des champs ...
+- GDelt: schema evolue : 1.0 à 2.0
+- Dev: json = technos web ++
+- Beaucoup de possibilités pour attaquer la base
 
 ---
 ## Modélisation des données
-
+- Systeme relationnel -> Collection avec selection des champs qui nous interessent
+- De temps en tps pas acteur 2 => on ne prend pas
 ---
 ## Visualisation
 
