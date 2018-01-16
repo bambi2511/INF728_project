@@ -1,4 +1,4 @@
-#Projet NOSQL
+## Projet NOSQL
 
 ### Presentation du 23/01/2017
 #### Nazha Bouchia, Alexandre Durand, Robin Masliah, François Lecerf
@@ -8,7 +8,10 @@
 - Demande métier floue / evolutive
 - Le metier veut brancher sa datawiz
 - Et connecter avec d autres applications
-
+---
+?image=assets/image/gitpitch-audience.jpg&opacity=100
+---
+?image=assets/image/business_analyst.jpg&opacity=100
 ---
 ## Architecture
 - MongoDB: meilleur compromis Big data/souplesse
