@@ -1,12 +1,21 @@
-# Database modeling
+# Projet NOSQL
 
 ### Presentation du 23/01/2017
+#### Nazha Bouchia, Alexandre Durand, Robin Masliah, François Lecerf
 
 ---
-##Slide 1
+## Etude de ces
 
 ---
-##Slide 2
+## Architecture
+
+---
+## Modélisation des données
+
+---
+## Visualisation
+
+---
 
 ## Tips!
 
