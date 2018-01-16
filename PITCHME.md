@@ -25,12 +25,12 @@
 ---
 - MongoDB est le meilleur compromis souplesse / scalabilité
 ---
-- Le format JSON permet de rajouter des champs à la demande
- - En fonction des demandes métier
+- Le format JSON permet de rajouter des champs à la demande |
+ - En fonction des demandes métier |
  - En fonction des évolutions de la base Gdelt (format 1.0 -> 2.0)
 ---
-- La technologie facilite la livraison
- - Technologie web créée par des développeurs, pour des développeurs
+- La technologie facilite la livraison |
+ - Technologie web créée par des développeurs, pour des développeurs |
  - Beaucoup de connecteurs pour attaquer la base (Python, BI, Spark, REST)
 ---
 ## Modélisation des données
@@ -39,8 +39,8 @@
 ---
 ### Import: Spark
 ---
-- Le format de stockage dans S3 (zip) ne nous permet pas de traiter directement la donnée
-- Nous avons donc directement récupéré les données de la base GDelt vers une machine S3
+- Le format de stockage dans S3 (zip) ne nous permet pas de traiter directement la donnée |
+- Nous avons donc directement récupéré les données de la base GDelt vers une machine S3 |
 - Ceux ci sont ensuite processés par un traitement Scala qui integre les fichiers dans une base de données dans un cluster MongoDB
 ---
 ### Storage: MongoDB
