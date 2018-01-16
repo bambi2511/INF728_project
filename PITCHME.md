@@ -6,17 +6,17 @@
 ---
 ## Etude de cas
 ---
-- La demande métier est floue et evolutive
+- La demande métier est par nature floue et evolutive
 ---?image=assets/image/business_analyst.jpg&size=auto 90%
 ---
-- La demande métier est floue et evolutive
+- La demande métier est par nature floue et evolutive
 - Le metier veut brancher sa datawiz
 ---
-- La demande métier est floue et evolutive
+- La demande métier est par nature floue et evolutive
 - Le metier veut brancher sa datawiz
 - Et se connecter avec d autres applications
 ---
-- La demande métier est floue et evolutive
+- La demande métier est par nature floue et evolutive
 - Le metier veut brancher sa datawiz
 - Et se connecter avec d autres applications
 - Tout en conservant une application réactive
@@ -25,17 +25,17 @@
 ---
 - MongoDB est le meilleur compromis souplesse / scalabilité
 ---
-Le format JSON permet de rajouter des champs à la demande
-- En fonction des demandes métier
-- En fonciton des évolutions de la base Gdelt (format 1.0 -> 2.0)
-- Technologie web créée par des développeurs, pour des développeurs
-- Beaucoup de connecteurs pour attaquer la base (Python, BI, Spark, REST)
-
+-Le format JSON permet de rajouter des champs à la demande
+ - En fonction des demandes métier
+ - En fonction des évolutions de la base Gdelt (format 1.0 -> 2.0)
+---
+- La technologie facilite la livraison
+ - Technologie web créée par des développeurs, pour des développeurs
+ - Beaucoup de connecteurs pour attaquer la base (Python, BI, Spark, REST)
 ---
 ## Modélisation des données
 ---
-- Systeme relationnel -> Collection avec selection des champs qui nous interessent
-- De temps en tps pas acteur 2 => on ne prend pas
+- GDelt: 3 tables avec des liens relationnels. On lie les tables, on les applatit, et on ne conserve que les champs qui nous intéressent
 ---
 ## Visualisation
 
