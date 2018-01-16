@@ -8,10 +8,8 @@
 - Demande métier floue / evolutive
 - Le metier veut brancher sa datawiz
 - Et connecter avec d autres applications
----
-?image=assets/image/gitpitch-audience.jpg&opacity=100
----
-?image=assets/image/business_analyst.jpg&opacity=100
+---?image=assets/image/gitpitch-audience.jpg&opacity=100
+---?image=assets/image/business_analyst.jpg&opacity=100
 ---
 ## Architecture
 - MongoDB: meilleur compromis Big data/souplesse
