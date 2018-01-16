@@ -6,12 +6,12 @@
 ---
 ## Etude de cas
 - Demande métier floue / evolutive
+---?image=assets/image/business_analyst.jpg&size=auto 90
 - Le metier veut brancher sa datawiz
 - Et connecter avec d autres applications
----?image=assets/image/gitpitch-audience.jpg&opacity=100
----?image=assets/image/business_analyst.jpg&size=auto 90%
 ---
 ## Architecture
+---
 - MongoDB: meilleur compromis Big data/souplesse
 - On peut rajouter des champs ...
 - GDelt: schema evolue : 1.0 à 2.0
