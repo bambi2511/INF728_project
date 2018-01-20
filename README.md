@@ -1,111 +1,58 @@
-# GitPitch Presentation Template
+# Projet Bigdata : Analyser l’année 2017 via la base de données GDELT
 
-This branch contains **Black**, a GitPitch presentation template.
+L’objectif du projet est de concevoir un système de stockage distribué performant sur AWS qui permet d’analyser les événements de l’année 2017 à travers leur recit dans les médias du monde collectés par GDELT.
 
-In fact within this branch you will find three variations of the
-Black template, each optimized for specific use-cases:
+Pour plus d'information: http://andreiarion.github.io/Projet2017.pdf.
 
-1. Black Base Template
-2. Black CodeMax Template
-3. Black Speaker Template
+## Pitch
 
-The content in this branch is a great example of how you can deliver
-multiple-presentations (with optional asset sharing) within a
-single Git repo branch. See the GitPitch Wiki for [further details](https://github.com/gitpitch/gitpitch/wiki/Asset-Sharing).
+Notre présentation, basée sur GitPich, est contenue dans le fichier [PITCHME.md](PITCHME.md), et les paramètres du template dans le fichier [PITCHME.yaml](PITCHME.yaml).
 
-Each template variation is discussed in the sections following Quick Start.
+## Chargement des données
 
-## Quick Start
+Le chargement des données GDELT a été testé de plusieurs façons.
 
-The fastest way to get started with this template is to copy the
-entire contents of this branch into your own local repository. Then
-git-add, commit, and push the template files to a public or 
-private repo on GitHub, GitLab, or Bitbucket.
-
-> Warning, this branch has it's own `README.md` and numerous other files under the `assets`, `codemax`, `speaker`, and `src` directories. These may be files or directories that you are already using in your own repo.  If you are going to copy the entire contents of this branch into your repo, please check to ensure that you do not accidentally overwrite existing files.
-
-## Black Base Template
-
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/black)
-
-The Base template is an excellent starting point for any 
-presentation author. The template markdown found in
-[PITCHME.md](PITCHME.md), and the template settings found
-in [PITCHME.yaml](PITCHME.yaml), provide great examples of
-numerous GitPitch features.
-
-To use only the Base template you will need to copy the following
-files and directories into your own Git repository:
+Les fichiers correspondant sont dans le répertoire src/main/python et scr/main/scala:
 
 ```
 .
-├── PITCHME.md
-├── PITCHME.yaml
-├── assets
-└── src
+├── src
+│   └── main
+|       └── scala
+|           └── load-events.scala
+|       └── python
+|           └── update-events.py
 ```
 
-Once you have those files under source control inside your
-Git repo you are ready to start customizing the markdown content,
-settings, imagery, styles, etc.
+## Mise en place du cluster Mongo
 
-## Black CodeMax Template
+La mise en place du cluster Mongo a été automatisé au moyen de script.
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/black?p=codemax)
-
-The CodeMax template makes a small number of changes to the
-custom CSS of the Base template in order to maximize the space
-used when rendering code on any slide. The updated custom CSS is found 
-in the [assets/css/PITCHME.codemax.css](assets/css/PITCHME.codemax.css) file.
-
-To use only the CodeMax template you will need to copy the following
-files and directories into your own Git repository:
+Les fichiers correspondant sont dans le répertoire src/main/scripts:
 
 
 ```
 .
-├── assets
-├── codemax
-│   ├── PITCHME.md
-│   └── PITCHME.yaml
-└── src
+├── src
+│   └── main
+|       └── viz
+|           └── xxxx.xx
 ```
 
-Once you have those files under source control inside your
-Git repo you are ready to start customizing the markdown content,
-settings, imagery, styles, etc.
+## Accès aux données et visualisation
 
-Note, if you want the CodeMax template to become the 
-default presentation for your repo, move `codemax/PITCHME.md`
-and `codemax/PITCHME.yaml` to the root directory of your repo.
+Nous avons mis en place au moyen du framework Bottle une API REST et utilisé un Jupyter Notebook pour présenter un cas d'utilisation basé sur nos données.
 
-## Black Speaker Template
-
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/templates/black?p=speaker)
-
-The Speaker template is identical to the Base template with
-one addition, sample speaker notes have been added
-to the template markdown found in [speaker/PITCHME.md](speaker/PITCHME.md).
-Open the **raw** view of this markdown file to see how simple
-it is to add speaker notes to any slide.
-
-To use only the Speaker template you will need to copy the following
-files and directories into your own Git repository:
+Les fichiers correspondant sont dans le répertoire src/main/viz:
 
 ```
 .
-├── PITCHME.yaml
-├── assets
-├── speaker
-│   └── PITCHME.md
-└── src
+├── src
+│   └── main
+|       └── viz
+|           └── gdelt_apirest.py
+|           └── dashboard.ipynb
 ```
 
-Once you have those files under source control inside your
-Git repo you are ready to start customizing the markdown content,
-settings, imagery, styles, etc.
 
-Note, if you want the Speaker template to become the 
-default presentation for your repo, move `speaker/PITCHME.md`
-to the root directory of your repo.
 
