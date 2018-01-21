@@ -5,7 +5,7 @@
 
 ---
 ## Contexte
----
+
 ---?image=assets/image/contexte.png&size=auto 90%
 
 ---
@@ -26,13 +26,14 @@ TODO: A compléter (events + actor + mentions)
 
 ---
 ## Choix du système de stockage
+
 ---
 - **MongoDB** est le meilleur compromis fonctionnalité et accès aux données / scalabilité et performance / souplesse d'évolution de l'architecture
 
 ---
-- Le format des documents nous permet d'être flexible et de rajouter des champs à la demande |
- - En aval, en fonction de l'évolution des demandes métier |
- - En amont, en fonction des évolutions de la base GDELT (format 1.0 -> 2.0) |
+- Le format des documents nous permet d'être flexible et de rajouter des champs à la demande
+  - En aval, en fonction de l'évolution des demandes métier
+  - En amont, en fonction des évolutions de la base GDELT (format 1.0 -> 2.0) |
  - Cela nous permet aussi de faire évoluer notre architecture en plusieurs temps (ajout de champs sans modification immédiate des applications frontales à notre base)
 
 ---
@@ -125,15 +126,17 @@ TODO: A compléter (events + actor + mentions)
 TODO : Schéma
 
 ---
-#### Import des données: MongoSpark
+**Import des données: MongoSpark**:
 Processing et transformation des fichiers GDELT par un traitement Spark/Scala qui sauvegarde directement les fichiers dans notre cluster MongoDB
 
-#### Stockage: MongoDB
+**Stockage: MongoDB**:
 Cluster de 3 machines
 
-#### Visualisation
-- API REST
-- Notebook Python
+**Visualisation**: 
+
+API REST
+
+Notebook Python
 
 ---
 
