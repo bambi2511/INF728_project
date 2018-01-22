@@ -17,7 +17,7 @@
 ---
 ## Use Case
 ---
-### Présenter une vue macroscopique des événements sur un mois donné:
+#### Présenter une vue macroscopique des événements sur un mois donné:
 - Goldstein Scale
 - Tonalité
 - CAMEO Root Code
@@ -25,17 +25,6 @@
 - Géolocalisation
 
 ---
-
-
-[comment]: <> (## Choix des données
----
-
-Garder les données 'macro':
-- 
-TODO: A compléter (events + actor + mentions)
-
----)
-
 
 ## Choix du système de stockage
 
