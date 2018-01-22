@@ -34,7 +34,7 @@ TODO: A compléter (events + actor + mentions)
 **Le format *Document* nous permet d'être flexible et de rajouter des champs à la demande:**
   - En aval, en fonction de l'évolution des demandes métier
   - En amont, en fonction des évolutions de la base GDELT (format 1.0 -> 2.0)
-  - Cela nous permet aussi de faire évoluer notre architecture en plusieurs temps (ajout de champs sans modification immédiate des applications frontales à notre base)
+  - Evolution de l'architecture en plusieurs temps (ajout de champs sans modification immédiate des applications frontales à notre base)
 
 ---
  - Programmation simple généralement adaptée aux développeurs et en particulier à notre équipe Data
