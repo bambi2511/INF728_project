@@ -17,7 +17,7 @@
 ---
 ## Use Case
 ---
-#### Présenter une vue macroscopique des événements sur un mois donné:
+#### Présenter une vue macroscopique <br> des événements sur un mois donné:
 - Goldstein Scale
 - Tonalité
 - CAMEO Root Code
