@@ -136,6 +136,14 @@ Un ReplicaSet de 3 machines
 
 - **Visualisation**  
 API REST + Notebook Python
+
+---
+
+## Reste à faire :
+
+- dgd
+- qdf
+
 ---
 
 ### Merci de votre attention
