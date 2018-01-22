@@ -128,8 +128,8 @@ TODO: A compléter (events + actor + mentions)
 
 ---
 - **Import des données: MongoSpark**  
-Processing et transformation des fichiers GDELT par traitement Spark/Scala  
-Sauvegarde des données directement dans notre cluster MongoDB
+  - Processing et transformation des fichiers GDELT par traitement Spark/Scala  
+  - Sauvegarde des données directement dans notre cluster MongoDB
 
 - **Stockage: MongoDB**  
 Un ReplicaSet de 3 machines
