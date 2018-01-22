@@ -123,7 +123,11 @@ TODO: A compléter (events + actor + mentions)
 ## Architecture
 ---
 
-TODO : Schéma
+---?image=assets/image/_ARCHI.png&size=auto 90%
+
+---
+
+---?image=assets/image/_ARCHI_white.png&size=auto 90%
 
 ---
 **Import des données: MongoSpark**:
