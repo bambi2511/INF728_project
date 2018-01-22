@@ -50,7 +50,7 @@ TODO: A compléter (events + actor + mentions)
 ---
 ## Modélisation des données
 ---
-- GDELT: 3 tables avec des liens relationnels. 
+- GDELT: tables avec des liens relationnels
 - Transformation en une seule collection "events" de documents contenant l'event et ses mentions
 
 ---
