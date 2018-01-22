@@ -139,7 +139,7 @@ API REST + Notebook Python
 
 ---
 
-## Passage du POC <br><\br> ##à la Production :
+## Passage du POC <br> à la Production :
 
 - Charger toute l'année
   - Sharding (sharding-Key = un des champs 'date')
