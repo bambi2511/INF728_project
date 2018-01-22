@@ -139,10 +139,13 @@ API REST + Notebook Python
 
 ---
 
-## Reste à faire :
+## Passage du POC à la Production :
 
-- dgd
-- qdf
+- Charger toute l'année
+  - Sharding (sharding-Key = un des champs 'date')
+
+- Inclure les GKG à nos données
+  - De nouvelles requêtes possibles
 
 ---
 
