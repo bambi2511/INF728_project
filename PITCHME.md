@@ -122,7 +122,7 @@ TODO: A compléter (events + actor + mentions)
 ---
 ## Architecture
 
----?image=assets/image/_ARCHI.png&size=auto 58%
+[comment]: <> (---?image=assets/image/_ARCHI.png&size=auto 58%)
 
 ---?image=assets/image/_ARCHI_white.png&size=auto 57%
 
