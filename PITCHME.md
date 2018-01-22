@@ -122,9 +122,9 @@ TODO: A compléter (events + actor + mentions)
 ---
 ## Architecture
 
----?image=assets/image/_ARCHI.png&size=auto 75%
+---?image=assets/image/_ARCHI.png&size=auto 68%
 
----?image=assets/image/_ARCHI_white.png&size=auto 70%
+---?image=assets/image/_ARCHI_white.png&size=auto 68%
 
 ---
 **Import des données: MongoSpark**:
