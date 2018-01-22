@@ -58,72 +58,78 @@
 
 ```json
 {
-  "globalEventId":655488900,
-  "day":20170514,
-  "monthyear":201705,
-  "year":2017,
-  "fractionDate":2017.3670654296875,
-  "isRootEvent":0,
-  "eventCode":"1124",
-  "eventBaseCode":"112",
-  "eventRootCode":"11",
-  "quadClass":3,
-  "goldsteinScale":-2.0,
-  "numMentions":2,
-  "numSources":1,
-  "numArticles":2,
-  "avgTone":-1.7426273822784424,
-  "dateadded":20170514090000,
-  "sourceurl":"http://english.ahram.org.eg/NewsContent/2/9/268726/World/International/Macron-takes-office-as-French-president.aspx",
-  "actor1":{
-    "code":"RUS",
-    "name":"RUSSIAN",
-    "countryCode":"RUS",
-    "knownGroupCode":"",
-    "ethnicCode":"",
-    "geography":{
-      "type":1,
-      "fullname":"Russia",
-      "countryCode":"RS",
-      "ADM1Code":"RS",
-      "ADM2Code":"",
-      "coordinates":[
-        60.0,
-        100.0
-      ]
-    }
-  },
-  "actor2":{
-    "code":"GOV",
-    "name":"AUTHORITIES",
-    "countryCode":"",
-    "knownGroupCode":"",
-    "typeCode":[
-      "GOV"
-    ],
-    "geography":{
-      "type":4,
-      "fullname":"Paris, France (general), France",
-      "countryCode":"FR",
-      "ADM1Code":"FR00",
-      "ADM2Code":"16282",
-      "coordinates":[
-        48.86669921875,
-        2.333329916000366
-      ]
-    }
-  },
-  "actionGeo":{
-    "type":4,
-    "fullname":"Paris, France (general), France",
-    "countryCode":"FR",
-    "ADM1Code":"FR00",
-    "ADM2Code":"16282",
-    "coordinates":[
-      48.86669921875,
-      2.333329916000366
-    ]
-  }
+	"globalEventId" : 653358758,
+	"day" : 20170507,
+	"monthyear" : 201705,
+	"year" : 2017,
+	"fractionDate" : 2017.347900390625,
+	"isRootEvent" : 1,
+	"eventCode" : "057",
+	"eventBaseCode" : "057",
+	"eventRootCode" : "05",
+	"quadClass" : 1,
+	"goldsteinScale" : 8,
+	"numMentions" : 2,
+	"numSources" : 1,
+	"numArticles" : 2,
+	"avgTone" : -3.200000047683716,
+	"dateadded" : NumberLong("20170507000000"),
+	"sourceurl" : "http://www.informationclearinghouse.info/47003.htm",
+	"actor1" : {
+		"code" : "IRN",
+		"name" : "IRAN",
+		"countryCode" : "IRN",
+		"knownGroupCode" : "",
+		"ethnicCode" : "",
+		"geography" : {
+			"type" : 4,
+			"fullname" : "Moscow, Moskva, Russia",
+			"countryCode" : "RS",
+			"ADM1Code" : "RS48",
+			"ADM2Code" : "25106",
+			"coordinates" : [
+				55.752201080322266,
+				37.6156005859375
+			]
+		}
+	},
+	"actor2" : {
+		"code" : "TUR",
+		"name" : "TURKEY",
+		"countryCode" : "TUR",
+		"knownGroupCode" : "",
+		"geography" : {
+			"type" : 4,
+			"fullname" : "Tehran, Tehran, Iran",
+			"countryCode" : "IR",
+			"ADM1Code" : "IR26",
+			"ADM2Code" : "41130",
+			"coordinates" : [
+				35.75,
+				51.514801025390625
+			]
+		}
+	},
+	"actionGeo" : {
+		"type" : 4,
+		"fullname" : "Moscow, Moskva, Russia",
+		"countryCode" : "RS",
+		"ADM1Code" : "RS48",
+		"ADM2Code" : "25106",
+		"coordinates" : [
+			55.752201080322266,
+			37.6156005859375
+		]
+	},
+	"mentions" : [
+		{
+			"doctone" : -3.2,
+			"id" : "http://www.informationclearinghouse.info/47003.htm",
+			"sourceName" : "informationclearinghouse.info",
+			"type" : 1,
+			"timeDate" : "20170507000000"
+		}
+	]
 }
 ```
 
