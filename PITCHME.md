@@ -127,17 +127,15 @@ TODO: A compléter (events + actor + mentions)
 ---?image=assets/image/_ARCHI_white.png&size=auto 68%
 
 ---
-**Import des données: MongoSpark**:
-Processing et transformation des fichiers GDELT par un traitement Spark/Scala qui sauvegarde directement les fichiers dans notre cluster MongoDB
+**Import des données: MongoSpark**:  
+> Processing et transformation des fichiers GDELT par un traitement Spark/Scala qui sauvegarde directement les fichiers dans notre cluster MongoDB
 
-**Stockage: MongoDB**:
-Cluster de 3 machines
+**Stockage: MongoDB**:  
+> Cluster de 3 machines
 
-**Visualisation**: 
-
-API REST
-
-Notebook Python
+**Visualisation**:   
+> API REST  
+> Notebook Python
 
 ---
 
