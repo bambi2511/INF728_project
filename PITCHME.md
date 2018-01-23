@@ -157,6 +157,7 @@ API REST + Notebook Python
 
 - Charger toute l'année
   - Sharding (sharding-Key = un des champs 'date')
+    (si volume données > 100 Go, d'après préco. MongoDB)
 
 - Inclure les GKG à nos données
   - De nouvelles requêtes possibles
