@@ -55,7 +55,7 @@
 - Transformation en une seule collection "events" de documents contenant l'event et ses mentions
 
 ---
-### (scrolldown to see the entire sample)
+##### (scrolldown to see the entire sample)
 ```json
 {
 	"globalEventId" : 653358758,
