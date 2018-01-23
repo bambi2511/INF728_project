@@ -2,7 +2,7 @@
 
 L’objectif du projet est de concevoir un système de stockage distribué performant sur AWS qui permet d’analyser les événements de l’année 2017 à travers leur recit dans les médias du monde collectés par GDELT.
 
-Pour plus d'information: http://andreiarion.github.io/Projet2017.pdf.
+> Pour plus d'information: http://andreiarion.github.io/Projet2017.pdf.
 
 ## Pitch
 
