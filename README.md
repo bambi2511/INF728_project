@@ -8,6 +8,8 @@ Pour plus d'information: http://andreiarion.github.io/Projet2017.pdf.
 
 Notre présentation, basée sur GitPich, est contenue dans le fichier [PITCHME.md](PITCHME.md), et les paramètres du template dans le fichier [PITCHME.yaml](PITCHME.yaml).
 
+Pour accéder à la présentation : https://gitpitch.com/bambi2511/INF728_project
+
 ## Chargement des données
 
 Le chargement des données GDELT a été testé de plusieurs façons.
