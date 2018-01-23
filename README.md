@@ -28,15 +28,15 @@ Les fichiers correspondant sont dans le répertoire src/main/python et scr/main/
 
 La mise en place du cluster Mongo a été automatisé au moyen de script.
 
-Les fichiers correspondant sont dans le répertoire src/main/scripts:
+Les fichiers correspondant sont dans le répertoire src/main/scripts/:
 
 
 ```
 .
 ├── src
 │   └── main
-|       └── viz
-|           └── xxxx.xx
+|       └── scripts
+|           └── script_install_mongo.sh
 ```
 
 ## Accès aux données et visualisation
